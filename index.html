@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Project DesignFest</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <h1>Form Pengumpulan Project</h1>
+            <hr>
+            <p>silahkan mengisi data diri, lalu upload project anda</p>
+            <form action="" method="post">
+            <fieldset>
+                <label for="name">Nama Lengkap : <input type="text" name="name" id="name" required></label>
+                <label for="nama_kelompok">Nama kelompok : <input type="text" name="nama_kelompok" id="nama_kelompok" required></label>
+                <label for="nomor_peserta">Nomor peserta : <input type="text" name="nomor_peserta" id="nomor_peserta" required></label> 
+            </fieldset>
+            <fieldset>
+                <select name="jenis_project" id="jenis_project" required>
+                    <option value="jenis_project"><p class="pilih">(pilih jenis project)</p></option>
+                    <option value="desain_produk">desain produk</option>
+                    <option value="desain_grafis">desain grafis</option>
+                    <option value="desain_bangunan">desain bangunan</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="file">Pilih file yang ingin diupload : </label><div class="file"><input type="file" name="file" required></div>
+                <label for="checkbox" class="checkbox"><input type="checkbox" required> Centang jika anda telah yakin dengan file yang akan diupload.</label>
+            </fieldset>
+            <input type="submit" name="submit" id="submit">
+            </form>
+        </main>
+    </body>
+</html>

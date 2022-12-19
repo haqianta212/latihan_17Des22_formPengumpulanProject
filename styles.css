@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* styles.css */
+
+body {
+    background-color: #0d4d66;
+    opacity: 0.9;
+    margin-top: 100px;
+    /* filter: blur(3px); */
+}
+main {
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: auto;
+    font-family: Tahoma;
+    padding: 10px 10px 20px 10px;
+    overflow:hidden;
+    box-shadow: 0 0 2px 2px #ffffff;
+    filter:none;
+}
+/* body {
+    filter: blur(3px);
+} */
+h1 {
+    font-size: 30px;
+    padding: 5px;
+    overflow: hidden;
+}
+hr {
+    background: linear-gradient(to right, rgb(110, 110, 110)50%, rgb(255, 255, 177) 80%);
+    height: 2px;
+}
+p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+fieldset {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.75);
+}
+input[type="text"] {
+    display: inline;
+    border: none;
+    border-bottom: 1px solid #000;
+    vertical-align: middle;
+}
+
+/* input[type="text"]:default {
+    border: none;
+} */
+
+label {
+    display: block;
+    height: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* vertical-align: bottom; */
+}
+label[for="checkbox"] {
+    font-size: 15px;
+}
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+/* .pilih {
+    color: #a8a8a8;
+} */
+.checkbox {
+    display: block;
+    margin-top: 10px;
+}
+/* label:last-of-type {
+    display: inline;
+} */
+.file {
+    border: 0.75px solid #000;
+    display: inline;
+    padding: 5px;
+    display: block;
+    margin-top: 5px;
+}
+/* input [name="file"] {
+    vertical-align:top;
+} */
+
+input[type="submit"] {
+    margin-top: 10px;
+    display: block;
+    margin-right: 10px;
+    margin-left: auto;
+}
